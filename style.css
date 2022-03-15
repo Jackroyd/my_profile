@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=League+Gothic&display=swap');
+
+
+
+h1 {
+  color: #316B83;
+  font-family: 'Diadact Gothic', sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 104px;
+  border-radius: 52px;
+
+}
+
+h2 {
+  font-size: 16px;
+  color: #6D8299;
+  font-family: 'Diadact Gothic', sans-serif;
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+  color: #316B83;
+  font-family: 'Diadact Gothic', sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+li {
+  margin: 0 20px;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  width: 600px;
+  margin: 25px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:#586f7c ;
+}
+a:hover {
+  color:#7B93A0 ;
+}
+
+.eat-button {
+  background-color: #586E7B;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.eat-button:hover {
+  background-color: #7B93A0;
+  color: white;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 420px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 180px;
+  }
+}
