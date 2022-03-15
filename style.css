@@ -30,6 +30,10 @@ body {
   font-size: 16px;
   color: #316B83;
   font-family: 'Diadact Gothic', sans-serif;
+  background-image: url("images/bolton.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 p {
