@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 }
 
-img {
+.ppp {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@ img {
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
 }
 
-img:hover {
+.ppp:hover {
   display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -30,9 +30,17 @@ img:hover {
   transition: all 0.1s ease;
 }
 
+.balls {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+
 h2 {
-  font-size: 16px;
-  color: #6D8299;
+  font-size: 20px;
+  color: #57789b;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-align: center;
