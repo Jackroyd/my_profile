@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=League+Gothic&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Raleway:wght@300;400&display=swap');
 
 
 h1 {
   color: #316B83;
-  font-family: 'Diadact Gothic', sans-serif;
-  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -14,26 +13,31 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 104px;
-  border-radius: 52px;
+  width: 112px;
+  border-radius: 56px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
 
+img:hover {
+  filter: blur(3px);
+  transition: all 1s ease;
 }
 
 h2 {
   font-size: 16px;
   color: #6D8299;
-  font-family: 'Diadact Gothic', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   text-align: center;
 }
 
 body {
   font-size: 16px;
   color: #316B83;
-  font-family: 'Diadact Gothic', sans-serif;
-  background-image: url("images/bolton.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  background: rgb(34,195,193);
+  background: linear-gradient(0deg, rgba(34,195,193,1) 0%, rgba(45,140,253,0.955641631652661) 100%);
 }
 
 p {
@@ -50,6 +54,7 @@ ul {
   margin: 0;
   padding: 0;
   font-size: 40px;
+  color: #2d8cfd;
 }
 
 li {
@@ -68,22 +73,24 @@ li {
 
 a {
   text-decoration: none;
-  color:#586f7c ;
+  color:#2d8cfd ;
 }
 a:hover {
-  color:#7B93A0 ;
+  color:#22c3c1;
 }
 
 .eat-button {
-  background-color: #586E7B;
+  background-color: #2d8cfd;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
 .eat-button:hover {
-  background-color: #7B93A0;
+  background-color: #22c3c1;
   color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 720px) {
