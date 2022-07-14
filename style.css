@@ -42,6 +42,7 @@ body {
   font-size: 2.5rem;
   font-weight: 600;
   margin: 2rem 0;
+  box-shadow: .01rem .01rem 0 0 black;
   transition: all ease-in-out 0.5s;
 }
 
