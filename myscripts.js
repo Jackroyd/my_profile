@@ -11,3 +11,14 @@ letters.forEach(l => {
     }, 800);
   });
 });
+
+window.onload = function () {
+  letters.forEach(function (l,i) {
+    setTimeout(function () {
+      l.classList.add("rubber");
+    }, 200+(i*50));
+    setTimeout(function () {
+      l.classList.remove("rubber")
+    }, 1000+(i*50));
+  })
+}
