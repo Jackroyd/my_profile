@@ -1,9 +1,12 @@
 body {
   background-color: #FFF4EB;
+  margin: 0;
 }
 
-.container {
+/* -----------First section ---------------------- */
+.section-first {
   padding: 2rem;
+  height: 100vh;
 }
 
 .header {
@@ -14,8 +17,8 @@ body {
 }
 
 .avatar {
-  width: 280px;
-  height: 280px;
+  width: 20vw;
+  height: 20vw;
   border: 8px solid black;
   border-radius: 50%;
   transition: all ease-in-out 0.5s;
@@ -39,11 +42,12 @@ body {
   border-radius: 30px;
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3vw;
   font-weight: 600;
   margin: 2rem 0;
   box-shadow: .01rem .01rem 0 0 black;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
+  padding: 8px 16px;
 }
 
 .main-btn:hover {
@@ -55,7 +59,7 @@ cursor: pointer;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 7vw;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   text-shadow: 3px 5px 0px black;
@@ -86,7 +90,7 @@ h2 {
   font-weight: 600;
   color: black;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3vw;
 }
 
 .main-content {
@@ -98,7 +102,8 @@ h2 {
 }
 
 .main-content h1 {
-  font-size: 4rem;
+  font-size: 4vw;
+  text-align: center;
 }
 
 .rubber {
@@ -137,4 +142,65 @@ h2 {
   to {
     transform: scale3d(1, 1, 1);
   }
+}
+
+
+
+/* -----------Second section ---------------------- */
+
+.section-second {
+  padding: 2rem;
+  width: 100% - 4rem;
+  background-color: #f190e8;
+}
+
+.second-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.section-second h1 {
+  font-size: 4vw;
+  margin-bottom: 1rem;
+}
+
+.section-second h2 {
+  font-size: 2vw;
+  text-align: justify;
+}
+
+.learn-text {
+  width: 50%
+}
+
+.learn-vid {
+  border: 3px solid black;
+  width: 38.4vw;
+  height: 21.4vw;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 10vw;
+  }
+  .avatar {
+    width: 40vw;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  .main-content h1 {
+    font-size: 7.2vw;
+    -webkit-text-stroke: 2px black;
+  }
+  .main-btn {
+    font-size: 6vw;
+  }
+
 }
